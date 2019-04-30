@@ -1,0 +1,22 @@
+body {font-family: sans-serif;}
+n {background-color: #eee;}
+n {background-color: #fff;}
+article {border: solid 1px;}
+nav {color: green;}
+
+Section, Article, Footer, {
+  padding: 10px;
+  border-radius: 16px;
+}
+
+nav {
+  margin: 10px;
+  > ul {
+    margin: 10px;
+    color: gray;
+    text-decoration: none;
+  }
+}
+
+div > p {color:red;}
+h3 + p {margin-top:10px;}
